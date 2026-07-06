@@ -1,0 +1,37 @@
+name: steering_analyzer
+description: "Phone steering sensor analyzer for evaluating smartphone-as-steering-wheel viability."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  # Sensor access
+  sensors_plus: ^7.1.0
+  flutter_compass: ^0.8.1
+
+  # Math
+  vector_math: ^2.2.0
+
+  # File I/O and sharing for CSV export
+  path_provider: ^2.1.6
+  share_plus: ^13.2.0
+  csv: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

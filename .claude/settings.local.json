@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\HomePC\\\\steer test\")",
+      "Bash(flutter --version)",
+      "Bash(flutter create *)",
+      "WebFetch(domain:pub.dev)",
+      "Bash(flutter pub *)"
+    ]
+  }
+}
